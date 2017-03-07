@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'simple-bimap', 
+  srcs = [
+    'simple_bimap.cpp',
+  ],
+  deps = [
+    '//:boost-bimap',
+  ],
+)
